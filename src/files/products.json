@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Romance",
+    "price": "4322233",
+    "image": "http://localhost:8080/images/products/1668901254375-@itsmarissa02.jpg",
+    "_id": 1
+  },
+  {
+    "title": "Arte",
+    "price": "727626",
+    "image": "http://localhost:8080/images/products/1668901599744-descarga(9).jpg",
+    "_id": 2,
+    "code": 14163
+  },
+  {
+    "title": "Paris",
+    "price": "234",
+    "image": "http://localhost:8080/images/products/1668905369436-descarga(3).jpg",
+    "_id": 3,
+    "timestamp": "19/11/2022, 21:51:36",
+    "code": 89134
+  },
+  {
+    "title": "Libros",
+    "price": "7252526",
+    "image": "http://localhost:8080/images/products/1668952047656-loves.jpg",
+    "_id": 4,
+    "timestamp": "20/11/2022, 10:47:27",
+    "code": 3344
+  }
+]

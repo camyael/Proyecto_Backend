@@ -1,0 +1,16 @@
+<%- include('./partials/head')%> 
+<h2>Carritos</h2>
+
+<% allCarts.forEach(e => { %>
+    <div>
+        <p>Carrito: <%= e.id %>, creado <%= e.timestamp  %>  </p>
+        <div>
+            <% e.products.forEach(e => { %>
+                <p> Producto id: <%= e.id %>, cantidad: <%= e.quantify  %>  </p>
+            <% }) %>
+        </div>
+        <a href=/carts/<%= e.id %>/products>Ver más</a>
+    </div>
+<% }) %>
+
+<a href="/">Volver</a>

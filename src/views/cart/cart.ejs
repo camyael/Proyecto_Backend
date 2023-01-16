@@ -1,0 +1,5 @@
+<%- include('./partials/head')%> 
+<h2>Carrito y productos</h2>
+<% cartProd.forEach(e => { %>
+    <p> Producto id: <%= e.id %>, cantidad: <%= e.quantify  %>  </p>
+<% }) %>

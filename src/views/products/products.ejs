@@ -1,0 +1,27 @@
+<%- include('../partials/head')%>
+<div>
+    <h2>Productos</h2>
+</div>
+
+<div id="productos-tiemporeal">
+</div>
+
+<h2>Agregar productos:</h2>
+<% if (administrator == true) { %>
+    <form action="/products" method="post" enctype="multipart/form-data">
+        <label>Nombre del producto</label>
+        <input name="title">
+        <label>Precio</label>
+        <input type="number" name="price">
+        <input type="file" name="image">
+        <button type="submit">Enviar</button>
+    </form>
+
+<% } else { %>
+    <h3>Solo los administradores pueden realizar otras acciones</h3>
+<% } %> 
+
+<a href="/">Volver</a>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/productos.js"></script>

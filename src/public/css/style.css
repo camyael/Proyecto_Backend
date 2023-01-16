@@ -1,0 +1,68 @@
+body {
+    background-color: #eaccea;
+    text-align: center;
+}
+
+a, h1, h2 {
+    margin-top: 20px;
+    color: #5e275e;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form input {
+    border: none;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: #514151;
+    border: #eaccea;
+    border-radius: 10px;
+    padding: 8px 16px;
+    color: #eaccea;
+}
+
+#productos-tiemporeal {
+    text-align: center;
+}
+
+#productos-tiemporeal div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+div img{
+    width: 120px;
+    border-radius: 10px;
+}
+
+.span-email {
+    color: blue;
+    font-weight: bolder;
+}
+
+.span-fecha {
+    color: brown;
+}
+
+.span-mensaje {
+    color: green;
+    font-style: italic;
+}
+
+#session a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#session img {
+    width: 50px;
+}

@@ -1,0 +1,21 @@
+<%- include('../partials/head')%>
+
+<% if (!session) { %>
+    <h1>Inicio de sesion</h1>
+
+    <form id="formLogIn">
+        <label>Email</label>
+        <input type="text" name="mail">
+        <label>Contraseña</label>
+        <input type="text" name="password">
+        <input type="submit" value="Iniciar sesion">
+    </form>
+
+    <p>no tienes una cuenta? Entonces <a href="/register">registrate!</a></p>
+
+    <script src="/js/usersLogin.js"></script>
+<% } else { %>
+    <p>Ya iniciaste sesion :)</p>
+    <a href="/">Volver a la tienda</a>
+<% }  %>
+ 
